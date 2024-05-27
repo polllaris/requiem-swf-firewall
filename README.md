@@ -1,3 +1,4 @@
+![Example Workflow](https://github.com/polllaris/requiem-swf-firewall/actions/workflows/continuous-integration.yaml/badge.svg)
 # What this is
 This is an in-development python module being tailored to the requirements of the restore portion of the Requiem project. The purpose of this is to aid in securing the game client from malicious SWF content. A proxying solution in the ambassador that we release will be made to use this library for scanning requests/responses and deciding weather or not they should be allowed to go to the client. **Examples of malicious content include**:
 - SWF data uploaded where other data should be e.g. cdn.example.com/user/example_user_id/profile_picture.png containing SWF data which could hypothetically be uploaded put in its place.
